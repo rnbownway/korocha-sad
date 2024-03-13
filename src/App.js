@@ -8,7 +8,7 @@ import Partners from "./component/Partners";
 import Team from "./component/Team";
 import Footer from './component/Footer';
 import Apples from "./component/Apples";
-import Conservants from "./component/Сonservants";
+import Conservants from "./component/Conservants";
 import Saplings from "./component/Saplings";
 
 function App() {
