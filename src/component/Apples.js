@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import styled from '@emotion/styled'
 import topaz from '../assets/topaz.png'
 import golden from '../assets/golden.png'
@@ -49,6 +49,10 @@ const H2 = styled.span`
 `;
 
 const Apples = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <AppleList>
             <H2>Яблоки</H2>

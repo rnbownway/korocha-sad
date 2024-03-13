@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import styled from '@emotion/styled'
 
@@ -41,6 +41,10 @@ const H2 = styled.span`
 `;
 
 function Partners() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <PartnerList>
         <H2>Партнерам</H2>

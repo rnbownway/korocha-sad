@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import styled from '@emotion/styled'
 import pitomnik from '../assets/pitomnik.jpg'
 
@@ -38,6 +38,10 @@ const H2 = styled.span`
 `;
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  
   return (
     <AboutList>
       <H2>О нас</H2>

@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import styled from '@emotion/styled'
 
 const SaplingList = styled.div`
@@ -37,6 +37,10 @@ const H2 = styled.span`
 `;
 
 const Saplings = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <SaplingList>
             <H2>Саженцы</H2>

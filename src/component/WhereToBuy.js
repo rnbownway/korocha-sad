@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import styled from '@emotion/styled'
 
 const MarketList = styled.div`
@@ -37,6 +37,10 @@ const H2 = styled.span`
 `;
 
 function WhereToBuy() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <MarketList>
       <H2>Где купить</H2>

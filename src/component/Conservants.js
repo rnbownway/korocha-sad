@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import styled from '@emotion/styled'
 
 const ConservantList = styled.div`
@@ -37,6 +37,10 @@ const H2 = styled.span`
 `;
 
 const Conservants = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <ConservantList>
             <H2>Плодоовощная консервация</H2>
