@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import background from '../assets/background.png'
-import tea from '../assets/tea.png'
 import saplings from '../assets/saplings.png'
 import apples from '../assets/apples.png'
 import juices from '../assets/juices.png'
@@ -147,14 +146,6 @@ function Home() {
                 <NavLink to={'/saplings'}>
                     <a href="#">
                         <Button>Саженцы</Button>
-                    </a>
-                </NavLink>
-            </Product>
-            <Product>
-                <img src={tea} alt='tea'/>
-                <NavLink to={'/tea'}>
-                    <a href="#">
-                        <Button>Чаи Brusnikatea</Button>
                     </a>
                 </NavLink>
             </Product>
