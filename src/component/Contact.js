@@ -49,7 +49,7 @@ function Contact() {
                 Приёмная
             </ContactTitle>
             <ContactText>
-                <li>Тел/факс: 8 (47231) 5-72-40,   8-910-326-48-66</li>
+                <li>Тел/факс: 8 (47231) 5-72-40</li>
                 <li>Почта: spitom@yandex.ru, korocha-plus@mail.ru</li>
             </ContactText>
         </ContactBlock>
@@ -76,7 +76,6 @@ function Contact() {
                 Транспортный отдел
             </ContactTitle>
             <ContactText>
-                <li>Тел: 8-904-530-95-18</li>
                 <li>Почта: logist@korsad.ru</li>
             </ContactText>
         </ContactBlock>
@@ -85,7 +84,7 @@ function Contact() {
                 Отдел снабжения
             </ContactTitle>
             <ContactText>
-                <li>Тел: 8 (47231) 5-71-67,   8-919-280-73-62</li>
+                <li>Тел: 8 (47231) 5-71-67</li>
                 <li>Почта: manapit@mail.ru</li>
             </ContactText>
         </ContactBlock>
@@ -94,7 +93,7 @@ function Contact() {
                 Коммерческий отдел (отдел продаж)
             </ContactTitle>
             <ContactText>
-                <li>Тел: 8 (47231) 5-71-67,   8-915-561-32-36</li>
+                <li>Тел: 8 (47231) 5-71-67</li>
                 <li>Почта: korsad_s@mail.ru, manapit@yandex.ru</li>
             </ContactText>
         </ContactBlock>
@@ -106,8 +105,6 @@ function Contact() {
             </ContactTitle>
             <ContactText>
                 <li>Тел: 8 (47231) 5-71-95</li>
-                <li>Тел: 8-915-575-87-56</li>
-                <li>Тел: 8-910-326-04-01</li>
             </ContactText>
         </ContactBlock>
         <ContactBlock>
