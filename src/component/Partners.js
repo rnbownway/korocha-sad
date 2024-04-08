@@ -58,6 +58,12 @@ function Partners() {
           <Link to="/files/sv_vo_o_postanovke_na_uchet.jpg" target="_blank" download>
             <PartnerTextLink>Свидетельство о постановке на учет в налоговом органе СССПСПОК Корочанские сады</PartnerTextLink>
           </Link>
+          <Link to="/files/svodnaya_vedomost.pdf" target="_blank" download>
+            <PartnerTextLink>Сводная ведомость результатов проведения специальной оценки условий труда</PartnerTextLink>
+          </Link>
+          <Link to="/files/perechen_meropriyatiy.pdf" target="_blank" download>
+            <PartnerTextLink>Перечень рекомендуемых мероприятий по улучшению условий труда</PartnerTextLink>
+          </Link>
         </PartnerBlock>
         <PartnerBlock>
           <PartnerText>
