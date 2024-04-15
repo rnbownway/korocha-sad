@@ -86,16 +86,6 @@ const Saplings = () => {
             </Sapling>
             <Sapling>
                 <SaplingTitle>
-                    Дарья
-                </SaplingTitle>
-                <SaplingText>
-                    Один из самых раннеспелых летних сортов. Среднего роста дерево, выдерживает умеренные морозы, устойчиво к заболеваниям
-                    <br/>
-                    Возраст: 2-х летки
-                </SaplingText>
-            </Sapling>
-            <Sapling>
-                <SaplingTitle>
                     Лобо
                 </SaplingTitle>
                 <SaplingText>
@@ -190,16 +180,6 @@ const Saplings = () => {
                 </SaplingTitle>
                 <SaplingText>
                     Относится к позднеспелым, зимним сортам высокоурожайных яблок. Это очень популярный сорт зимней яблони в США, Канаде...
-                    <br/>
-                    Возраст: 2-х летки
-                </SaplingText>
-            </Sapling>
-            <Sapling>
-                <SaplingTitle>
-                    Лукашовка
-                </SaplingTitle>
-                <SaplingText>
-                    Этот сорт груш был назван в честь его селекционера, правильно, Лукашова, которая считается самой морозоустойчивой на Земле.
                     <br/>
                     Возраст: 2-х летки
                 </SaplingText>
